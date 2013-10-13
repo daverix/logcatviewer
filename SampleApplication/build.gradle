@@ -1,0 +1,15 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "18.1.0"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+}
+
+dependencies {
+    compile project(':LogcatViewer')
+}
